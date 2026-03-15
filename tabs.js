@@ -82,6 +82,9 @@ recipeSelect?.addEventListener("change", function () {
 
   if (recipes[selected]) {
     recipeDisplay.innerHTML = recipes[selected];
+
+    recipeDisplay.scrollIntoView({ behavior: "smooth" });
+
   } else {
     recipeDisplay.innerHTML = "";
   }

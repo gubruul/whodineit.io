@@ -71,10 +71,25 @@ const recipeSelect = document.getElementById("recipe-select");
 const recipeDisplay = document.getElementById("recipe-display");
 
 const recipes = {
-  genussmenue: `<iframe src="recipes/GenussMenue3.pdf"></iframe>`,
-  vegetarischesmenue: `<iframe src="recipes/VegetarischesMenü.pdf"></iframe>`,
-  snackmenuefleisch: `<iframe src="recipes/SnackMenüMitFleisch.pdf"></iframe>`,
-  snackmenuevegetarisch: `<iframe src="recipes/SnackMenüVegetarisch.pdf"></iframe>`
+  genussmenue: `
+    <iframe src="recipes/GenussMenue3.pdf"></iframe>
+    <p><a href="recipes/GenussMenue3.pdf" target="_blank">📱 Probleme am Handy? Hier öffnen</a></p>
+  `,
+
+  vegetarischesmenue: `
+    <iframe src="recipes/VegetarischesMenü.pdf"></iframe>
+    <p><a href="recipes/VegetarischesMenü.pdf" target="_blank">📱 Probleme am Handy? Hier öffnen</a></p>
+  `,
+
+  snackmenuefleisch: `
+    <iframe src="recipes/SnackMenüMitFleisch.pdf"></iframe>
+    <p><a href="recipes/SnackMenüMitFleisch.pdf" target="_blank">📱 Probleme am Handy? Hier öffnen</a></p>
+  `,
+
+  snackmenuevegetarisch: `
+    <iframe src="recipes/SnackMenüVegetarisch.pdf"></iframe>
+    <p><a href="recipes/SnackMenüVegetarisch.pdf" target="_blank">📱 Probleme am Handy? Hier öffnen</a></p>
+  `
 };
 
 recipeSelect?.addEventListener("change", function () {

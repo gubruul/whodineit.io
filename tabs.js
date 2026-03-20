@@ -71,7 +71,7 @@ const recipeSelect = document.getElementById("recipe-select");
 const recipeDisplay = document.getElementById("recipe-display");
 
 const recipes = {
-  genussmenue: `<iframe src="recipes/GenussMenü.pdf"></iframe>`,
+  genussmenue: `<iframe src="recipes/GenussMenue3.pdf"></iframe>`,
   vegetarischesmenue: `<iframe src="recipes/VegetarischesMenü.pdf"></iframe>`,
   snackmenuefleisch: `<iframe src="recipes/SnackMenüMitFleisch.pdf"></iframe>`,
   snackmenuevegetarisch: `<iframe src="recipes/SnackMenüVegetarisch.pdf"></iframe>`
